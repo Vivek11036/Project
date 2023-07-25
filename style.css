@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+} 
+
+.navbar {
+    height: 70px;
+    background-color: #f5f0f0;
+    color: #000000F2;
+    display: flex;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("allrecipes_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+    /* margin: auto; */
+}
+
+/* --box-2 */
+.navsearch {
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-left: 800px;
+   
+}
+
+.option p {
+    display: inline;
+    padding-left: 20px;
+}
+
+#lg {
+    padding-left: 5px;
+}
+
+.login-icon {
+    padding-left: 30px;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.panel-all p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-all {
+    width: 70%;
+    font-size: 0.75rem;
+}
+
+#one:hover {
+    text-decoration: underline red;
+}
+
+#two:hover {
+    text-decoration: underline red;
+}
+
+#three:hover {
+    text-decoration: underline red;
+}
+
+#four:hover {
+    text-decoration: underline red;
+}
+
+#five:hover {
+    text-decoration: underline red;
+}
+
+#six:hover {
+    text-decoration: underline red;
+}
+
+#seven:hover {
+    text-decoration: underline red;
+}
+
+#eight:hover {
+    text-decoration: underline red;
+}
+
+#nine:hover {
+    text-decoration: underline red;
+}
+
+.mag {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: red;
+}
+
+.mag:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero - section */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 612px;
+    margin-left: 50px;
+}
+
+.hero-msg {
+    margin-left: 50px;
+}
+
+#burger:hover {
+    text-decoration: underline red;
+}
+
+.news-section {
+    padding-left: 800px;
+}
+
+.news {
+    background-color: #f5f0f0;
+    height: 492px;
+    width: 385px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.copycats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.copycats:hover {
+    text-decoration: underline red;
+}
+
+/* Recipes Sections */
+
+.recipes-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: #e2e7e6; */
+    margin-left:30px;
+    margin-top: 20px;
+}
+
+.box {
+    /* border: 2px solid  black; */
+    height: 400px;
+    width: 28%;
+    background-color: white;
+    
+}
+
+.box-img {
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.checked {
+    color: orange;
+}    
+
+#b-recipes {
+    padding-top: 20px;
+    color: #797a7a;
+    font-size: 0.7rem;
+}
+
+
+/* Footer */
+/* footer{
+    height: 500px;
+    background-color: #0000000D;
+} */
+
+.foot-panel {
+    background-color: #0000000D;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul a {
+    display: block;
+    margin-top: 15px;
+    color: #000000F2;
+}
+
+.foot-panel2{
+    background-color: #0000000D;
+    border-top: 0.5px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo1{
+    background-image: url("allrecipes_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
